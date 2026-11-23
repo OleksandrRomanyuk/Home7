@@ -1,0 +1,92 @@
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+    background-color: #f1f5f9;
+    color: #1e293b;
+}
+
+.main {
+    width: 100%;
+    max-width: 700px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+h1 {
+    color: #2563eb;
+}
+
+.main__p {
+    margin-bottom: 30px;
+    color: #64748b;
+}
+
+.card {
+    position: relative;
+    width: 100%;
+    max-width: 500px;
+    margin: 24px auto;
+    text-align: left;
+    border-radius: 12px;
+    overflow-wrap: break-word;
+}
+
+.card-one {
+    padding: 65px 24px 28px;
+    border: 3px solid #3b82f6;
+    margin: 24px auto;
+    background-color: #dbeafe;
+}
+
+
+.card-two {
+    padding: 28px 24px;
+    border: 2px dashed #16a34a;
+    margin: 24px auto;
+    background-color: #dcfce7;
+}
+
+.span {
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    padding: 6px 12px;
+    background-color: #2563eb;
+    color: white;
+    border-radius: 20px;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.card h2 {
+    margin-top: 0;
+    margin-bottom: 12px;
+}
+
+.card p {
+    margin-bottom: 0;
+    line-height: 1.6;
+}
+
+@media (max-width: 480px) {
+    body {
+        padding: 12px;
+    }
+
+    .card {
+        padding-left: 16px;
+        padding-right: 16px;
+    }
+
+    .card-one {
+        padding-top: 65px;
+    }
+}
